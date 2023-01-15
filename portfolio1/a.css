@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.a{
+    width : 100%;
+    height: 30px;
+    background-color: teal;
+    text-align: center;
+}
+.a button:hover{
+    color:peru;
+    transition:all 0.4s ease 0s ;
+}
+ul li{
+    float: right; 
+    list-style: none;
+ 
+}
+ul li a{
+    color:peachpuff;
+    font-size: 20px;
+    text-transform:uppercase;
+   padding: 0px 30px;
+    text-decoration: none;  
+} 
+ul li a:hover{
+    color:blueviolet;
+    transition: all 0.4s ease 0s;
+}
+.a .b{
+    float: left;
+    margin-left:5px;
+    padding-top:5px;
+}
+.f .g{
+float: left;
+background-color: ightgoldenrodyellow;
+font-size: 25px;
+text-align: left;
+margin-top:10px;
+margin-right: 40px;
+padding:10px;
+padding-top:20px;
+padding-bottom: 10px;
+color: cadetblue;
+}
+.f .h{
+    float:right;
+    text-align: right;
+    background-color: lightgoldenrodyellow;
+    font-size: 25px;
+    margin-top:10px;
+    padding:10px;
+    padding-top:20px;
+    padding-bottom: 10px;
+    color: cadetblue;
+}
+
+.f{
+background-color:lightgoldenrodyellow;
+}
+.f .p{
+    margin-left:auto;
+    margin-right: auto;
+}
+.d{
+    width: 100%;
+    height:100vh;
+    background-color: #939496;
+    background-position:center;  
+}
+.a .di{
+    float: left;
+    color:floralwhite;
+    text-align: center;
+    padding-left: 23%;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
