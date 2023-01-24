@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class = "div1">
+        <div class = "div2">
+            <div style="margin-right:50px;">
+                <input style = "height:80px;margin-left:5px;color:cadetblue;margin-top:5px;text-align: center; font-family: Arial, Helvetica, sans-serif;font-size:39px" value = "" placeholder="Claculate Here!"  id ="result">
+            </div>
+            <table  style="margin-left:25px;">
+                <tr>
+                    <td><button style="width:100px;height:50px; margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="deleted()"><b>delete</b></button></td>
+                    <td><button style="width:100px;height:50px; margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="deletedCaracter()"><b>AC</b></button></td>
+                    <td><button style="width:100px;height:50px; margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="rakib('(')"><b>(</b></button></td>
+                    <td><button style="width:100px;height:50px; margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="rakib(')')"><b>)</b></button></td>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                    <td><button style="width:100px;height:50px; margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="rakib('7')"><b>7</b></button></td>
+                    <td><button style="width:100px;height:50px;margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="rakib('8')"><b>8</b></button></td>
+                    <td><button style="width:100px;height:50px;margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="rakib('9')"><b>9</b></button></td>
+                    <td><button style="width:100px;height:50px;margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="rakib('/')"><b>/</b></button></td>
+                </tr>
+                <tr>
+                    <td><button style="width:100px;height:50px;margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="rakib('4')"><b>4</b></button></td>
+                    <td><button style="width:100px;height:50px;margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="rakib('5')"><b>5</b></button></td>
+                    <td><button style="width:100px;height:50px;margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="rakib('6')"><b>6</b></button></td>
+                    <td><button style="width:100px;height:50px;margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="rakib('*')"><b>x</b></button></td>
+                </tr>
+                <tr>
+                    <td><button style="width:100px;height:50px;margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="rakib('1')"><b>1</b></button></td>
+                    <td><button style="width:100px;height:50px;margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="rakib('2')"><b>2</b></button></td>
+                    <td><button style="width:100px;height:50px;margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="rakib('3')"><b>3</b></button></td>
+                    <td><button style="width:100px;height:50px;margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="rakib('+')"><b>+</b></button></td>
+                </tr>
+                <tr>
+                    <td><button style="width:100px;height:50px;margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="rakib('0')"><b>0</b></button></td>
+                    <td><button style="width:100px;height:50px;margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="rakib('.')"><b>.</b></button></td>
+                    <td><button style="width:100px;height:50px;margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="ans()"><b>=</b></button></td>
+                    <td><button style="width:100px;height:50px;margin-bottom:20px;margin-right:20px;" class="btn btn-info" onclick="rakib('-')"><b>-</b></button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+    <script src="https://kit.fontawesome.com/9f28a49f3c.js" crossorigin="anonymous"></script>
+</body>
+</html>
